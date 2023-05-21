@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 90%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#141E30, #243B55);
+    background-repeat: no-repeat;
+}
+.hover-effect{
+    background-image: linear-gradient(#141E30, #243B55);
+    border: none;
+}
+.hover-effect:hover {
+   background: #72A0C1;
+   transition: all 0.3s ease-in-out;
+}
+.container{
+    background: #fff;
+    width: 40%;
+    min-height: 60vh;
+}
+.dis{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px){
+    .container{
+        width: 100%;
+    }
+    .dis{
+        display: none;
+    }
+}
